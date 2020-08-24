@@ -1,5 +1,5 @@
-Monkey = require 'adbkit-monkey'
-Logcat = require 'adbkit-logcat'
+Monkey = require '@devicefarmer/adbkit-monkey'
+Logcat = require '@devicefarmer/adbkit-logcat'
 Promise = require 'bluebird'
 {EventEmitter} = require 'events'
 debug = require('debug')('adb:client')

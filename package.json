@@ -1,6 +1,6 @@
 {
   "name": "@httptoolkit/adbkit",
-  "version": "2.11.2-crashfix",
+  "version": "2.11.2-crashfix-updateforge",
   "description": "A pure Node.js client for the Android Debug Bridge.",
   "keywords": [
     "adb",
@@ -13,18 +13,18 @@
     "adbkit": "./bin/adbkit"
   },
   "bugs": {
-    "url": "https://github.com/openstf/adbkit/issues"
+    "url": "https://github.com/DeviceFarmer/adbkit/issues"
   },
   "license": "Apache-2.0",
   "author": {
-    "name": "The OpenSTF Project",
+    "name": "Device Farmer",
     "email": "contact@openstf.io",
-    "url": "https://openstf.io"
+    "url": "https://devicefarmer.github.io/"
   },
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openstf/adbkit.git"
+    "url": "https://github.com/DeviceFarmer/adbkit.git"
   },
   "scripts": {
     "postpublish": "grunt clean",
@@ -32,12 +32,12 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "adbkit-logcat": "^1.1.0",
-    "adbkit-monkey": "~1.0.1",
+    "@devicefarmer/adbkit-logcat": "^1.1.0",
+    "@devicefarmer/adbkit-monkey": "~1.0.1",
     "bluebird": "~2.9.24",
     "commander": "^2.3.0",
     "debug": "~2.6.3",
-    "node-forge": "^0.7.1",
+    "node-forge": "^0.9.1",
     "split": "~0.3.3"
   },
   "devDependencies": {
